@@ -19,6 +19,9 @@ git log --oneline [--graph]       //show log
 git push origin -d [branchname]   //delete remote branch  
 
 
-
+// ignore ds_store file
+echo .DS_Store >> .gitignore
+git add .gitignore
+git commit -m '.DS_Store banished!'
 
 ```
