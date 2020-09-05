@@ -12,7 +12,7 @@ git checkout [branchname]         // switch to branch
 git branch -a                     //list all branch
 git remote update origin --prune  //update branch from remote repository
 git log --oneline [--graph]       //show log
-
+git push origin -d [branchname]   //delete remote branch  
 
 
 
