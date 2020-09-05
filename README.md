@@ -4,6 +4,10 @@ git add .                         //add all files to git
 git commit -m ""                  //commit with message
 
 
+// new repo
+git remote add origin [ssh]
+
+
 
 // Branch
 
